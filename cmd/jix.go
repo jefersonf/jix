@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/jeferson/jix/jira"
+	"github.com/jefersonf/jix/jira"
 	"github.com/spf13/cobra"
 )
 

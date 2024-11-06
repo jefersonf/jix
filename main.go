@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/jeferson/jix/cmd"
+	"github.com/jefersonf/jix/cmd"
 )
 
 func main() {
