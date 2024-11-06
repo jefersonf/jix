@@ -1,7 +1,6 @@
 package cmd
 
 import (
-	"fmt"
 	"log"
 
 	"github.com/jefersonf/jix/jira"
@@ -9,10 +8,12 @@ import (
 )
 
 var (
-	projectKey   string
-	outputFormat string
+	projectKey string
+
 	outputPath   string
-	verbose      bool
+	outputFormat string
+
+	verbose bool
 )
 
 var jixCmd = &cobra.Command{
@@ -38,13 +39,6 @@ func extractIssues() []jira.Issue {
 		return []jira.Issue{}
 	}
 	return issues
-}
-
-func saveToFile(issues []jira.Issue) {
-	for _, issue := range issues {
-		fmt.Println(issue)
-	}
-	verboseLog("saving %s issues into %s folder\n", projectKey, outputPath)
 }
 
 func verboseLog(format string, v ...any) {
