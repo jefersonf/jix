@@ -1,8 +1,17 @@
-# jira-issue-extractor 
+# Jira Issue eXtractor 
 
 WIP
 
-### Output
+### Usage
 
-![fix output example](/assets/Screenshot%202024-11-01-jix.png)
+From source, simply clone this repository.
 
+```
+cd jix
+go build .
+```
+and then run it.
+
+```
+./jix -p TESTGEN -v
+```
