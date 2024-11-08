@@ -1,0 +1,46 @@
+{"id":"10053","key":"TESTGEN-54","fields":{"summary":"Implementar lógica para extração de issues do Jira","status":{"description":"","name":"Done"}}}
+{"id":"10052","key":"TESTGEN-53","fields":{"summary":"Implementar a autenticação e conexão com a API do Jira","status":{"description":"","name":"Done"}}}
+{"id":"10051","key":"TESTGEN-52","fields":{"summary":"Documentação","status":{"description":"","name":"In Progress"}}}
+{"id":"10050","key":"TESTGEN-51","fields":{"summary":"Implementar a lógica para formatação de saída em CSV","status":{"description":"","name":"To Do Individual"}}}
+{"id":"10049","key":"TESTGEN-50","fields":{"summary":"Implementar a lógica para formatação de saída em JSONL","status":{"description":"","name":"In Progress"}}}
+{"id":"10048","key":"TESTGEN-49","fields":{"summary":"Salvar testes gerados no JIRA","status":{"description":"","name":"To Do Individual"}}}
+{"id":"10047","key":"TESTGEN-48","fields":{"summary":"Definir artigo da semana","status":{"description":"","name":"To Do Individual"}}}
+{"id":"10046","key":"TESTGEN-47","fields":{"summary":"Discovery: Como utilizar Kashef com inputs de dados em páginas?","status":{"description":"","name":"To Do Individual"}}}
+{"id":"10045","key":"TESTGEN-46","fields":{"summary":"Fazer Kashef funcionar com LangGraph ao invés de AutoGen","status":{"description":"","name":"To Do Individual"}}}
+{"id":"10044","key":"TESTGEN-45","fields":{"summary":"Fazer Kashef funcionar com Llama3.1 70B","status":{"description":"","name":"To Do Individual"}}}
+{"id":"10043","key":"TESTGEN-44","fields":{"summary":"Geração de código","status":{"description":"","name":"To Do Individual"}}}
+{"id":"10042","key":"TESTGEN-43","fields":{"summary":"Integração de prompt com agente e refinamento de prompt","status":{"description":"","name":"To Do Individual"}}}
+{"id":"10041","key":"TESTGEN-42","fields":{"summary":"Criar agente baseado em RAG","status":{"description":"","name":"To Do Individual"}}}
+{"id":"10040","key":"TESTGEN-41","fields":{"summary":"Gerar prompts que recebe a task output do extrator de USs","status":{"description":"","name":"To Do Individual"}}}
+{"id":"10039","key":"TESTGEN-40","fields":{"summary":"Geração de caso de teste","status":{"description":"","name":"To Do Individual"}}}
+{"id":"10038","key":"TESTGEN-39","fields":{"summary":"Criar um extrator de documentação","status":{"description":"","name":"To Do Individual"}}}
+{"id":"10037","key":"TESTGEN-38","fields":{"summary":"Levantar um BD com dados mockados  com documentações de um produto (alinhar com time)","status":{"description":"","name":"To Do Individual"}}}
+{"id":"10036","key":"TESTGEN-37","fields":{"summary":"Criar (ou reaproveitar de Jefferson) um extrator de cards do JIRA","status":{"description":"","name":"To Do Individual"}}}
+{"id":"10035","key":"TESTGEN-36","fields":{"summary":"Extração de USs","status":{"description":"","name":"To Do Individual"}}}
+{"id":"10034","key":"TESTGEN-35","fields":{"summary":"Gerar testes usando Router Chain","status":{"description":"","name":"Done"}}}
+{"id":"10033","key":"TESTGEN-34","fields":{"summary":"Implementar extrator de issues do Jira","status":{"description":"","name":"In Progress"}}}
+{"id":"10032","key":"TESTGEN-33","fields":{"summary":"PoC Selenium","status":{"description":"","name":"Done"}}}
+{"id":"10031","key":"TESTGEN-32","fields":{"summary":"Criar extrator de seletores","status":{"description":"","name":"Done"}}}
+{"id":"10030","key":"TESTGEN-31","fields":{"summary":"Ler paper de Kashev","status":{"description":"","name":"Done"}}}
+{"id":"10029","key":"TESTGEN-30","fields":{"summary":"Brincar com datasets (PoC DS)","status":{"description":"","name":"Done"}}}
+{"id":"10028","key":"TESTGEN-29","fields":{"summary":"Pesquisar métricas relevantes para os Report","status":{"description":"","name":"To Do Individual"}}}
+{"id":"10027","key":"TESTGEN-28","fields":{"summary":"Gerar Métricas para o Código","status":{"description":"","name":"To Do Individual"}}}
+{"id":"10025","key":"TESTGEN-26","fields":{"summary":"Gerar Reports","status":{"description":"","name":"To Do Individual"}}}
+{"id":"10022","key":"TESTGEN-23","fields":{"summary":"Gerar código Cypress","status":{"description":"","name":"Done"}}}
+{"id":"10021","key":"TESTGEN-22","fields":{"summary":"Gerar código Selenium","status":{"description":"","name":"Done"}}}
+{"id":"10020","key":"TESTGEN-21","fields":{"summary":"Criação de Cenários de Testes","status":{"description":"","name":"Done"}}}
+{"id":"10019","key":"TESTGEN-20","fields":{"summary":"Execução e Report","status":{"description":"","name":"To Do Individual"}}}
+{"id":"10018","key":"TESTGEN-19","fields":{"summary":"Geração de código","status":{"description":"","name":"To Do Individual"}}}
+{"id":"10017","key":"TESTGEN-18","fields":{"summary":"Geração de CTs","status":{"description":"","name":"To Do Individual"}}}
+{"id":"10016","key":"TESTGEN-17","fields":{"summary":"Extração de USs","status":{"description":"","name":"To Do Individual"}}}
+{"id":"10014","key":"TESTGEN-15","fields":{"summary":"Procurar papers para próxima semana","status":{"description":"","name":"TO DO TODOS"}}}
+{"id":"10013","key":"TESTGEN-14","fields":{"summary":"Comparação: Llama vs Mixtral","status":{"description":"","name":"Done"}}}
+{"id":"10011","key":"TESTGEN-12","fields":{"summary":"Análise de métricas em testes","status":{"description":"","name":"Done"}}}
+{"id":"10010","key":"TESTGEN-11","fields":{"summary":"PoC: Selenium com LLMs","status":{"description":"","name":"Done"}}}
+{"id":"10007","key":"TESTGEN-8","fields":{"summary":"Brincar com datasets (mbpp analysis)","status":{"description":"","name":"Done"}}}
+{"id":"10006","key":"TESTGEN-7","fields":{"summary":"Elencar datasets com user stories","status":{"description":"","name":"Done"}}}
+{"id":"10005","key":"TESTGEN-6","fields":{"summary":"Finalizar minicursos","status":{"description":"","name":"Done"}}}
+{"id":"10004","key":"TESTGEN-5","fields":{"summary":"Elencar datasets com descrição do código","status":{"description":"","name":"Done"}}}
+{"id":"10003","key":"TESTGEN-4","fields":{"summary":"Estudar PGVector","status":{"description":"","name":"Done"}}}
+{"id":"10001","key":"TESTGEN-2","fields":{"summary":"Aprofundamento","status":{"description":"","name":"To Do Individual"}}}
+{"id":"10000","key":"TESTGEN-1","fields":{"summary":"Ler paper CodeT","status":{"description":"","name":"Done"}}}
