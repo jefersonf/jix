@@ -5,13 +5,16 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"path/filepath"
+	"strings"
 
 	"github.com/jefersonf/jix/jira"
 )
 
 func saveToFile(issues []jira.Issue) {
-	// TODO decide output format and then save to file
+	verboseLog("%v items extracted\n", len(issues))
 	verboseLog("saving %s issues into %s folder\n", projectKey, outputPath)
+
 	if outputFormat == "jsonl" {
 		saveToJSONLFile(issues)
 	} else {
@@ -25,9 +28,9 @@ func saveToFileCSV(issues []jira.Issue) {
 
 func saveToJSONLFile(issues []jira.Issue) {
 
-	jsonFilePath := fmt.Sprintf("%s/%s.jsonl", outputFormat, projectKey)
+	jsonFilePath := strings.ToLower(fmt.Sprintf("%s/%s.jsonl", outputPath, projectKey))
 
-	file, err := os.Create(jsonFilePath)
+	file, err := createOutputDir(jsonFilePath)
 	if err != nil {
 		fmt.Println("Error creating file:", err)
 		return
@@ -48,9 +51,17 @@ func writeIssueToFile(file *os.File, issue *jira.Issue) {
 		return
 	}
 
+	jsonData = append(jsonData, byte('\n'))
 	_, err = file.Write(jsonData)
 	if err != nil {
 		log.Println("Error writing to file:", err)
 		return
 	}
+}
+
+func createOutputDir(outputPath string) (*os.File, error) {
+	if err := os.MkdirAll(filepath.Dir(outputPath), 0770); err != nil {
+		return nil, err
+	}
+	return os.Create(outputPath)
 }
