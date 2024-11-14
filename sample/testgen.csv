@@ -1,0 +1,51 @@
+ID,Key,Summary,StatusDescription,StatusName
+10069,TESTGEN-70,Salvar testes no JIRA,,To Do Individual
+10068,TESTGEN-69,Gerar uma suíte de testes,,To Do Individual
+10067,TESTGEN-68,Fazer Kashef funcionar com Langraph ao invés de AutoGen,,In Progress
+10066,TESTGEN-67,Formatar input,,To Do Individual
+10064,TESTGEN-65,Estudos de aprofundamento em RAG,,In Progress
+10063,TESTGEN-64,Obter token de acesso à API do Confluence,,To Do Individual
+10062,TESTGEN-63,Estudar documentação do Confluence API e identificar os recursos de interesse,,To Do Individual
+10061,TESTGEN-62,Reescrever o extrator de issues do Jira (JIX) em linguagem Python,,To Do Individual
+10060,TESTGEN-61,Obter token de acesso à API do Jira,,To Do Individual
+10059,TESTGEN-60,Implementar extrator de páginas do Confluence,,To Do Individual
+10058,TESTGEN-59,Estudar documentação do Jira API e identificar os recursos de interesse,,To Do Individual
+10057,TESTGEN-58,Ler o documento JIRA detalis.docx,,TO DO TODOS
+10056,TESTGEN-57,Executar código e Gerar o report,,To Do Individual
+10055,TESTGEN-56,Elencar os frameworks que gerem reports de testes,,Done
+10054,TESTGEN-55,Gerar uma suíte de testes,,To Do Individual
+10053,TESTGEN-54,Implementar lógica para extração de issues do Jira,,Done
+10052,TESTGEN-53,Implementar a autenticação e conexão com a API do Jira,,Done
+10051,TESTGEN-52,Documentação da ferramenta,,In Progress
+10050,TESTGEN-51,Implementar a lógica para formatação de saída em CSV,,In Progress
+10049,TESTGEN-50,Implementar a lógica para formatação de saída em JSONL,,Done
+10047,TESTGEN-48,Ler artigo da semana,,TO DO TODOS
+10046,TESTGEN-47,Discovery: Como utilizar Kashef com inputs de dados em páginas?,,To Do Individual
+10045,TESTGEN-46,Fazer Kashef funcionar com CrewAI ao invés de AutoGen,,In Progress
+10044,TESTGEN-45,Fazer Kashef funcionar com Llama3.1 70B,,Done
+10043,TESTGEN-44,Geração de código,,In Progress
+10042,TESTGEN-43,Integração de prompt com agente e refinamento de prompt,,To Do Individual
+10041,TESTGEN-42,Criar agente baseado em RAG,,In Progress
+10040,TESTGEN-41,Gerar prompts que recebe a task output do extrator de USs,,Done
+10039,TESTGEN-40,Geração de caso de teste,,In Progress
+10038,TESTGEN-39,Criar um extrator de documentação,,To Do Individual
+10037,TESTGEN-38,Levantar um BD com dados mockados  com documentações de um produto (alinhar com time),,To Do Individual
+10036,TESTGEN-37,Implementar lógica de extração de páginas do Confluence,,To Do Individual
+10035,TESTGEN-36,Requisitar instância de banco de dados,,In Progress
+10034,TESTGEN-35,Gerar testes usando Router Chain,,Done
+10033,TESTGEN-34,Implementar extrator de issues do Jira,,In Progress
+10032,TESTGEN-33,PoC Selenium,,Done
+10031,TESTGEN-32,Criar extrator de seletores,,Done
+10030,TESTGEN-31,Ler paper de Kashev,,Done
+10029,TESTGEN-30,Brincar com datasets (PoC DS),,Done
+10028,TESTGEN-29,Pesquisar métricas relevantes para os Report,,Done
+10027,TESTGEN-28,Gerar Métricas para o Código/Sistema,,To Do Individual
+10025,TESTGEN-26,Gerar Reports,,In Progress
+10022,TESTGEN-23,Gerar código Cypress,,Done
+10021,TESTGEN-22,Gerar código Selenium,,Done
+10020,TESTGEN-21,Criação de Cenários de Testes,,Done
+10019,TESTGEN-20,Execução e Report,,To Do Individual
+10018,TESTGEN-19,Geração de código,,To Do Individual
+10017,TESTGEN-18,Geração de CTs,,To Do Individual
+10016,TESTGEN-17,Extração de USs,,To Do Individual
+10014,TESTGEN-15,Procurar papers para próxima semana,,TO DO TODOS
