@@ -18,11 +18,11 @@ func saveToFile(issues []jira.Issue) {
 	if outputFormat == "jsonl" {
 		saveToJSONLFile(issues)
 	} else {
-		saveToFileCSV(issues)
+		saveToCSVFile(issues)
 	}
 }
 
-func saveToFileCSV(issues []jira.Issue) {
+func saveToCSVFile(issues []jira.Issue) {
 	panic("unimplemented")
 }
 
