@@ -27,7 +27,7 @@ var jixCmd = &cobra.Command{
 func init() {
 	jixCmd.Flags().StringVarP(&projectKey, "project-key", "p", "", "Jira project key")
 	jixCmd.Flags().StringVarP(&outputFormat, "format", "f", "jsonl", "Output format (only JSONL and CSV are available)")
-	jixCmd.Flags().StringVarP(&outputPath, "output-path", "o", "./", "Path to the output file")
+	jixCmd.Flags().StringVarP(&outputPath, "output-path", "o", "./data", "Path to the output file")
 	jixCmd.Flags().BoolVarP(&verbose, "verbose", "v", false, "Set verbose mode")
 }
 
