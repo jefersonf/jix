@@ -24,3 +24,15 @@ def get_credentials():
     return user_email, apihost, apikey
 
 
+def connectjira():
+    try:
+        useremail, apikey, apihost = get_credentials()
+    except EnvironmentError as e:
+         raise EnvironmentError(f"Failed to load jira credentials: {e}")
+    try:
+        jira = JIRA(server=api_host, basic_auth=(user_email, api_key))
+        print(f"Sucessful Connection!")
+    except JIRAError as e:
+        raise ConnectionError(f" Failed to connect: {e}")
+    return jira
+
