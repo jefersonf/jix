@@ -14,11 +14,11 @@ def get_credentials():
     if user_email == '':
         raise EnvironmentError(f"Var user_email is missing")
     
-    apihost = os.getenv("JIRA_API_KEY")
+    apihost = os.getenv("JIRA_API_HOST")
     if apihost == '':
         raise EnvironmentError(f"Var apikey is missing")
     
-    apikey = os.getenv("JIRA_API_HOST")
+    apikey = os.getenv("JIRA_API_KEY")
     if apikey == '':
         raise EnvironmentError(f"Var apihost is missing")
     
@@ -27,11 +27,11 @@ def get_credentials():
 
 def connect_to_jira():
     try:
-        useremail, apikey, apihost = get_credentials()
+        user_email, apihost, apikey = get_credentials()
     except EnvironmentError as e:
          raise EnvironmentError(f"Failed to load jira credentials: {e}")
     try:
-        jira = JIRA(server=api_host, basic_auth=(user_email, api_key))
+        jira = JIRA(server=apihost, basic_auth=(user_email, apikey))
         print(f"Sucessful Connection!")
     except JIRAError as e:
         raise ConnectionError(f" Failed to connect: {e}")
@@ -55,7 +55,7 @@ def save_to_file(issues, output_format):
     if output_format == 'jsonl':
         save_to_jsonl(issues)
 
-if __name == "__main":
+if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Jira Issue eXtractor")
     parser.add_argument("-p", "--project-key", required=True, help="Jira project key")
     parser.add_argument("-f", "--format", default="jsonl", choices=["jsonl", "csv"], help="Output format")
